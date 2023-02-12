@@ -12,7 +12,7 @@ function App() {
   function onSubmit(event) {
       event.preventDefault();
       console.log(event.target[0].value);
-      axios.get('http://localhost:3001/' + /[^/]*$/.exec(event.target[0].value)[0]).then(res => {
+      axios.get('http://142.93.141.97:3001/' + /[^/]*$/.exec(event.target[0].value)[0]).then(res => {
         setLettre(res.data);
       });
     }
