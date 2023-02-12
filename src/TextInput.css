@@ -1,0 +1,32 @@
+.text-input-container {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(32,33,35,.5);
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-right: 8px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.submit-button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.submit-button i {
+    font-size: 24px;
+    color: #fff;
+}
